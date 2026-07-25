@@ -5,7 +5,7 @@ much rather hear from you than read about it later.
 
 ## Reporting a vulnerability
 
-Do not open a public issue. Email **security@heyrafiki.space**
+Do not open a public issue. Email **hello@heyrafiki.space**
 with:
 
 - the repository and version affected
