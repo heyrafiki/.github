@@ -26,11 +26,11 @@ Heyrafiki connects People, licensed Practitioners, Insurers and Organizations on
 
 | Decision | Why |
 | --- | --- |
-| **One authority per domain** | Convex owns realtime state. Postgres owns approved clinical records, Claims and the ledger. Cross-store copies are event-driven projections, never uncontrolled dual writes. |
-| **The ledger is the source of truth** | The payment provider moves money; a double-entry ledger records it. Booking captures into escrow, delivery releases, a covered Session posts a receivable instead. Every movement has a matching pair. |
+| **One authority per domain** | Realtime state and records of authority are separate stores with one owner each. Copies between them are event-driven projections, never uncontrolled dual writes. |
+| **The ledger is the source of truth** | Payment providers move money; a double-entry ledger records it. Booking captures into escrow, delivery releases, a covered Session posts a receivable instead. Every movement has a matching pair. |
 | **Identity stored apart from clinical data** | A breach of one is not a breach of the other. Access is decided by role, purpose and consent together; any one failing denies the request. |
 | **Standards at the boundary** | FHIR resource shapes and ICD-10 coding, so Claims, referrals and records exchange with systems that already exist. |
-| **Portable by construction** | Node runtime, no host-locked storage primitives, standalone output. |
+| **Portable by construction** | No host-locked primitives, so the Platform is not captive to one provider. |
 
 ## What is open
 
