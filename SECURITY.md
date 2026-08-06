@@ -1,7 +1,6 @@
 # Security
 
-Heyrafiki carries health information. We take reports seriously, and we would
-much rather hear from you than read about it later.
+Report suspected vulnerabilities privately so we can investigate before disclosure.
 
 ## Reporting a vulnerability
 
@@ -13,9 +12,7 @@ with:
 - the steps to reproduce
 - a proof of concept, if you have one
 
-We acknowledge every report as quickly as we can, and always within **14
-days**. If a fix will take longer than that, we tell you where it stands
-rather than going quiet.
+We acknowledge reports within **14 days** and provide status updates until resolution.
 
 ## What we ask
 
