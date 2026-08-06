@@ -45,7 +45,7 @@ Heyrafiki connects People, licensed Practitioners, Insurers and Organizations on
 
 ## Open source
 
-We publish code where independent inspection improves interoperability and trust: contracts, SDKs, standards adapters, documentation and public-safe evaluation tools. Each repository opens with a useful artifact, an explicit licence and maintained release controls.
+We publish versioned contracts, SDKs and documentation where independent inspection improves interoperability and trust. Each repository opens with a useful artifact, an explicit licence and maintained release controls.
 
 Safety thresholds, anti-fraud controls, private regulator and payer adapters, production credentials and production data stay private. Read the [open source thesis](https://heyrafiki.space/open-source).
 

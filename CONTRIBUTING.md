@@ -16,16 +16,11 @@ For a substantial change, open an issue first so the scope and approach can be a
 4. Run every check documented by the repository.
 5. Remove debug output, temporary files, and unrelated changes.
 
-## Two things we hold firmly
+## Public copy and health data
 
-**User-facing words are reviewed line by line.** Labels, errors, empty states
-and documentation are part of the product, and a maintainer will edit them.
-That is not a comment on your writing; it is how we keep one voice.
+We review every user-facing string for clarity and consistency.
 
-**Nothing may weaken the separation between identity data and clinical data.**
-A change that makes it easier to join the two, or that widens who can reach
-clinical content, needs to say so plainly in the pull request. It may still be
-right. It will not be merged quietly.
+Changes that alter the separation of identity and clinical data must describe the access and privacy impact in the pull request.
 
 ## Commit messages
 
