@@ -29,7 +29,6 @@ Heyrafiki connects People, Practitioners, Insurers and Organizations across Care
 | [`docs`](https://github.com/heyrafiki/docs) | Developer documentation for the API, SDKs, Webhooks and MCP. [Read the Docs](https://docs.heyrafiki.space). | [CC BY 4.0](https://github.com/heyrafiki/docs/blob/main/LICENSE) |
 | [`openapi`](https://github.com/heyrafiki/openapi) | Beta OpenAPI 3.1 contract for the REST API, with synthetic examples. | [Apache 2.0](https://github.com/heyrafiki/openapi/blob/main/LICENSE) |
 | [`heyrafiki-js`](https://github.com/heyrafiki/heyrafiki-js) | Beta server-side JavaScript and TypeScript SDK, plus the Heyrafiki CLI. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-js/blob/main/LICENSE) |
-| [`.github`](https://github.com/heyrafiki/.github) | Organization profile and shared community health files. | Not applicable. |
 
 ## Access
 
