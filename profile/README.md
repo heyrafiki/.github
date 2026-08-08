@@ -20,7 +20,7 @@
 
 ---
 
-Heyrafiki connects People, Practitioners, Insurers and Organizations across Care, Benefits and Payments. Developers can build against versioned REST contracts, server-side JavaScript tooling and public documentation.
+Heyrafiki connects People, Practitioners, Insurers and Organizations across Care, Benefits and Payments. Developers can build against versioned REST contracts, the JavaScript SDK and CLI, and public documentation.
 
 ## Public projects
 
