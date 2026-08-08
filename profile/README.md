@@ -20,38 +20,28 @@
 
 ---
 
-Heyrafiki connects People, licensed Practitioners, Insurers and Organizations on one rail. A Person finds a right-fit Practitioner and uses the Cover they already have. The Practitioner gets practice tools and a clear path to payment. The Insurer receives a clean, coded Claim from a verified network.
+Heyrafiki connects People, Practitioners, Insurers and Organizations across Care, Benefits and Payments. Developers can build against versioned REST contracts, the JavaScript SDK and CLI, and public documentation.
 
-## Start here
+## Public projects
 
-| For | Start |
-| --- | --- |
-| **Developers and agents** | [Build with the Heyrafiki API](https://docs.heyrafiki.space) |
-| **Practitioners** | [Run your Practice](https://heyrafiki.space/solutions/practitioners) |
-| **Insurers** | [Connect Cover to Care](https://heyrafiki.space/solutions/insurers) |
-| **Organizations** | [Offer private Mental Health Benefits](https://heyrafiki.space/solutions/organizations) |
-| **NGOs and public health** | [Run accountable Care Programs](https://heyrafiki.space/solutions/ngos) |
-| **Researchers** | [Read our research approach](https://heyrafiki.space/resources/research) |
+| Repository | Purpose | Licence |
+| --- | --- | --- |
+| [`docs`](https://github.com/heyrafiki/docs) | Developer documentation for the API, SDKs, Webhooks and MCP. [Read the Docs](https://docs.heyrafiki.space). | [CC BY 4.0](https://github.com/heyrafiki/docs/blob/main/LICENSE) |
+| [`openapi`](https://github.com/heyrafiki/openapi) | Beta OpenAPI 3.1 contract for the REST API, with synthetic examples. | [Apache 2.0](https://github.com/heyrafiki/openapi/blob/main/LICENSE) |
+| [`heyrafiki-js`](https://github.com/heyrafiki/heyrafiki-js) | Beta server-side JavaScript and TypeScript SDK, plus the Heyrafiki CLI. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-js/blob/main/LICENSE) |
+| [`.github`](https://github.com/heyrafiki/.github) | Organization profile and shared community health files. | Not applicable. |
 
-## Architecture
+## Access
 
-| Decision | Why |
-| --- | --- |
-| **One authority per domain** | Realtime state and durable records have one owner each. Copies are event-driven projections, never uncontrolled dual writes. |
-| **The Ledger is the source of truth** | Payment providers move money; a double-entry Ledger records it. Every movement has a matching pair. |
-| **Identity stored apart from clinical data** | Access requires role, purpose and Consent together. Any one failing denies the request. |
-| **Versioned contracts at the boundary** | OpenAPI, JSON Schema and signed Events keep released interfaces explicit and testable. |
-| **Portable by construction** | Standard interfaces keep the Platform independent of one cloud or vendor. |
+The documentation, API contract and SDK source are public. API examples use synthetic Sandbox data. [Request Sandbox access](https://heyrafiki.space/waitlist).
 
 ## Open source
 
-We publish versioned contracts, SDKs and documentation where independent inspection improves interoperability and trust. Each repository opens with a useful artifact, an explicit licence and maintained release controls.
+We publish contracts, SDKs and documentation where independent inspection improves interoperability and trust. Each public artifact has its own licence.
 
 Safety thresholds, anti-fraud controls, private regulator and payer adapters, production credentials and production data stay private. Read the [open source thesis](https://heyrafiki.space/open-source).
 
-## Build with Heyrafiki
-
-Start with the [Docs](https://docs.heyrafiki.space), follow released behavior in the [Changelog](https://heyrafiki.space/changelog), or [request sandbox access](https://heyrafiki.space/waitlist).
+## Contributing
 
 Issues and pull requests are welcome in public repositories. Start with [`CONTRIBUTING.md`](https://github.com/heyrafiki/.github/blob/main/CONTRIBUTING.md).
 
