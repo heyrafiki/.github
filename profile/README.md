@@ -27,12 +27,14 @@ Heyrafiki connects People, Practitioners, Insurers and Organizations across Care
 | Repository | Purpose | Licence |
 | --- | --- | --- |
 | [`docs`](https://github.com/heyrafiki/docs) | Developer documentation for the API, SDKs, Webhooks and MCP. [Read the Docs](https://docs.heyrafiki.space). | [CC BY 4.0](https://github.com/heyrafiki/docs/blob/main/LICENSE) |
-| [`openapi`](https://github.com/heyrafiki/openapi) | Beta OpenAPI 3.1 contract for the REST API, with synthetic examples. | [Apache 2.0](https://github.com/heyrafiki/openapi/blob/main/LICENSE) |
-| [`heyrafiki-js`](https://github.com/heyrafiki/heyrafiki-js) | Beta server-side JavaScript and TypeScript SDK, plus the Heyrafiki CLI. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-js/blob/main/LICENSE) |
+| [`openapi`](https://github.com/heyrafiki/openapi) | OpenAPI 3.1 contract for the REST API. | [Apache 2.0](https://github.com/heyrafiki/openapi/blob/main/LICENSE) |
+| [`heyrafiki-js`](https://github.com/heyrafiki/heyrafiki-js) | JavaScript and TypeScript SDK, plus the Heyrafiki CLI. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-js/blob/main/LICENSE) |
+| [`heyrafiki-go`](https://github.com/heyrafiki/heyrafiki-go) | Go SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-go/blob/main/LICENSE) |
+| [`heyrafiki-dotnet`](https://github.com/heyrafiki/heyrafiki-dotnet) | .NET SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-dotnet/blob/main/LICENSE) |
 
 ## Access
 
-The documentation, API contract and SDK source are public. API examples use synthetic Sandbox data. [Request Sandbox access](https://heyrafiki.space/waitlist).
+The documentation, API contract and SDK source are public. API access is staged. [Request Sandbox access](https://heyrafiki.space/waitlist).
 
 ## Open source
 
