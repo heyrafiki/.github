@@ -29,8 +29,10 @@ Heyrafiki connects People, Practitioners, Insurers and Organizations across Care
 | [`docs`](https://github.com/heyrafiki/docs) | Developer documentation for the API, SDKs, Webhooks and MCP. [Read the Docs](https://docs.heyrafiki.space). | [CC BY 4.0](https://github.com/heyrafiki/docs/blob/main/LICENSE) |
 | [`openapi`](https://github.com/heyrafiki/openapi) | OpenAPI 3.1 contract for the REST API. | [Apache 2.0](https://github.com/heyrafiki/openapi/blob/main/LICENSE) |
 | [`heyrafiki-js`](https://github.com/heyrafiki/heyrafiki-js) | JavaScript and TypeScript SDK, plus the Heyrafiki CLI. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-js/blob/main/LICENSE) |
+| [`heyrafiki-python`](https://github.com/heyrafiki/heyrafiki-python) | Python SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-python/blob/main/LICENSE) |
 | [`heyrafiki-go`](https://github.com/heyrafiki/heyrafiki-go) | Go SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-go/blob/main/LICENSE) |
 | [`heyrafiki-dotnet`](https://github.com/heyrafiki/heyrafiki-dotnet) | .NET SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-dotnet/blob/main/LICENSE) |
+| [`heyrafiki-rust`](https://github.com/heyrafiki/heyrafiki-rust) | Rust SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-rust/blob/main/LICENSE) |
 
 ## Access
 
