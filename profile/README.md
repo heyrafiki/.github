@@ -20,19 +20,21 @@
 
 ---
 
-Heyrafiki connects People, Practitioners, Insurers and Organizations across Care, Benefits and Payments. Developers can build against versioned REST contracts, the JavaScript SDK and CLI, and public documentation.
+Heyrafiki connects People, Practitioners, Insurers and Organizations across Care, Benefits and Payments. Developers build against a versioned REST contract, typed SDKs, the `hey` command line and public documentation.
 
 ## Public projects
 
 | Repository | Purpose | Licence |
 | --- | --- | --- |
 | [`docs`](https://github.com/heyrafiki/docs) | Developer documentation for the API, SDKs, Webhooks and MCP. [Read the Docs](https://docs.heyrafiki.space). | [CC BY 4.0](https://github.com/heyrafiki/docs/blob/main/LICENSE) |
-| [`openapi`](https://github.com/heyrafiki/openapi) | OpenAPI 3.1 contract for the REST API. | [Apache 2.0](https://github.com/heyrafiki/openapi/blob/main/LICENSE) |
-| [`heyrafiki-js`](https://github.com/heyrafiki/heyrafiki-js) | JavaScript and TypeScript SDK, plus the Heyrafiki CLI. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-js/blob/main/LICENSE) |
-| [`heyrafiki-python`](https://github.com/heyrafiki/heyrafiki-python) | Python SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-python/blob/main/LICENSE) |
-| [`heyrafiki-go`](https://github.com/heyrafiki/heyrafiki-go) | Go SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-go/blob/main/LICENSE) |
-| [`heyrafiki-dotnet`](https://github.com/heyrafiki/heyrafiki-dotnet) | .NET SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-dotnet/blob/main/LICENSE) |
-| [`heyrafiki-rust`](https://github.com/heyrafiki/heyrafiki-rust) | Rust SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/heyrafiki-rust/blob/main/LICENSE) |
+| [`contract`](https://github.com/heyrafiki/contract) | OpenAPI 3.1 contract and machine-readable Assurance Graph. | [Apache 2.0](https://github.com/heyrafiki/contract/blob/main/LICENSE) |
+| [`proving-ground`](https://github.com/heyrafiki/proving-ground) | Executable contract, financial, bitemporal and adversarial conformance evidence. | [Apache 2.0](https://github.com/heyrafiki/proving-ground/blob/main/LICENSE) |
+| [`rafiki-js`](https://github.com/heyrafiki/rafiki-js) | JavaScript and TypeScript SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-js/blob/main/LICENSE) |
+| [`rafiki-py`](https://github.com/heyrafiki/rafiki-py) | Python SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-py/blob/main/LICENSE) |
+| [`rafiki-go`](https://github.com/heyrafiki/rafiki-go) | Go SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-go/blob/main/LICENSE) |
+| [`rafiki-net`](https://github.com/heyrafiki/rafiki-net) | .NET SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-net/blob/main/LICENSE) |
+| [`rafiki-rs`](https://github.com/heyrafiki/rafiki-rs) | Rust SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-rs/blob/main/LICENSE) |
+| [`hey`](https://github.com/heyrafiki/hey) | Command line for Sandbox diagnostics and governed API reads. | [Apache 2.0](https://github.com/heyrafiki/hey/blob/main/LICENSE) |
 
 ## Access
 
@@ -49,23 +51,24 @@ Integration teams can review the contract and control model before requesting ac
 | [Claim valuation timeline](https://docs.heyrafiki.space/insurance/claim-valuation-timeline) | Reproducible as-of Claim history across business time, knowledge time and valuation time |
 | [Assurance Graph](https://docs.heyrafiki.space/institutions/assurance-graph) | Every public operation linked to an accountable capability, control owner, authority source and executable evidence |
 | [Acceptance testing](https://docs.heyrafiki.space/insurance/acceptance-testing) | Synthetic pilot sequence, negative tests and production approval evidence |
-| [OpenAPI contract](https://github.com/heyrafiki/openapi) | Versioned schemas, scopes, errors, idempotency and executable contract checks |
+| [OpenAPI contract](https://github.com/heyrafiki/contract) | Versioned schemas, scopes, errors, idempotency and accountable capability ownership |
+| [Proving Ground](https://github.com/heyrafiki/proving-ground) | Reproducible conformance suites and pinned evidence artifacts |
 | [Security policy](https://github.com/heyrafiki/.github/blob/main/SECURITY.md) | Private vulnerability reporting and health-data handling rules |
 
 The payer remains authoritative for membership, Benefit design, adjudication policy, premium, reserving and regulatory returns. Heyrafiki preserves the operational evidence connecting payer decisions to delivered Care, Claims and settlement.
 
 ## Open insurance assurance benchmark
 
-The [Open Mental Health Insurance Assurance Benchmark](https://github.com/heyrafiki/openapi/blob/main/BENCHMARK.md) maps all 31 public API operations to 10 accountable capabilities and 9 controls. Its deterministic runner validates the contract, financial identities, a bitemporal Claim valuation timeline and graph integrity. Five adversarial mutations test duplicate events, reordered knowledge, future knowledge, unbalanced adjudication and settlement above payer liability.
+The [Open Mental Health Insurance Assurance Benchmark](https://github.com/heyrafiki/proving-ground) maps all 31 public API operations to 10 accountable capabilities and 9 controls. Its deterministic runner validates the contract, financial identities, a bitemporal Claim valuation timeline and graph integrity. Five adversarial mutations test duplicate events, reordered knowledge, future knowledge, unbalanced adjudication and settlement above payer liability.
 
 ```bash
-git clone https://github.com/heyrafiki/openapi.git
-cd openapi
+git clone https://github.com/heyrafiki/proving-ground.git
+cd proving-ground
 npm ci
 npm test
 ```
 
-The fixture is synthetic. It establishes reproducible contract behavior, not regulatory approval, clinical efficacy, reserve adequacy or insurer solvency. [Call the Claim valuation operation](https://docs.heyrafiki.space/insurance/claim-valuation-timeline), [read the research article](https://heyrafiki.space/resources/articles/what-did-the-claim-system-know) or [inspect the machine-readable Assurance Graph](https://github.com/heyrafiki/openapi/blob/main/assurance/assurance-graph.json).
+The open benchmark is the shared technical baseline for governed institutional pilots. Teams extend it with their operating assumptions, approved evidence and accountable reviewers while preserving the same reproducible contract. [Call the Claim valuation operation](https://docs.heyrafiki.space/insurance/claim-valuation-timeline), [read the research article](https://heyrafiki.space/resources/articles/what-did-the-claim-system-know) or [inspect the machine-readable Assurance Graph](https://github.com/heyrafiki/contract/blob/main/assurance/assurance-graph.json).
 
 ## Open source
 
