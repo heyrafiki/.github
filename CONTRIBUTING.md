@@ -18,7 +18,10 @@ For a substantial change, open an issue first so the scope and approach can be a
 
 ## Public copy and health data
 
-We review every user-facing string for clarity and consistency.
+We review every user-facing string for clarity, factual support and consistency.
+Public writing describes verified capability and the action available to the
+reader. It does not expose rollout mechanics, internal stage labels or private
+institutional details.
 
 Changes that alter the separation of identity and clinical data must describe the access and privacy impact in the pull request.
 
