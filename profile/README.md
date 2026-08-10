@@ -53,6 +53,7 @@ Integration teams can review the contract and control model before requesting ac
 | [Acceptance testing](https://docs.heyrafiki.space/insurance/acceptance-testing) | Synthetic pilot sequence, negative tests and production approval evidence |
 | [OpenAPI contract](https://github.com/heyrafiki/contract) | Versioned schemas, scopes, errors, idempotency and accountable capability ownership |
 | [Proving Ground](https://github.com/heyrafiki/proving-ground) | Reproducible conformance suites and pinned evidence artifacts |
+| [First Light Evidence Pack](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/pilot-evidence-pack.md) | Consent-authorized early-identification routing, tenant isolation, blind dual review, longitudinal knowledge time and adverse-boundary evidence |
 | [Security policy](https://github.com/heyrafiki/.github/blob/main/SECURITY.md) | Private vulnerability reporting and health-data handling rules |
 
 The payer remains authoritative for membership, Benefit design, adjudication policy, premium, reserving and regulatory returns. Heyrafiki preserves the operational evidence connecting payer decisions to delivered Care, Claims and settlement.
@@ -69,6 +70,12 @@ npm test
 ```
 
 The open benchmark is the shared technical baseline for governed institutional pilots. Teams extend it with their operating assumptions, approved evidence and accountable reviewers while preserving the same reproducible contract. [Call the Claim valuation operation](https://docs.heyrafiki.space/insurance/claim-valuation-timeline), [read the research article](https://heyrafiki.space/resources/articles/what-did-the-claim-system-know) or [inspect the machine-readable Assurance Graph](https://github.com/heyrafiki/contract/blob/main/assurance/assurance-graph.json).
+
+## First Light conformance evidence
+
+First Light carries Screening signals into an accountable Practitioner review boundary. Its [public evidence pack](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/pilot-evidence-pack.md) reproduces 48 versioned fixtures across self, caregiver and Practitioner responder paths. The suite verifies Consent before read or action, tenant isolation, minimum-necessary model context, blind dual review, effective and recorded time, complete audit evidence and 24 adverse boundaries.
+
+Every artifact is pinned in a [reviewed SHA-256 manifest](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/manifest.json). The [Evidence Boundary](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/evidence-boundary.md) keeps fixed-cohort conformance measurement precise while instrument- and population-specific clinical evaluation carries its own reviewed protocol.
 
 ## Open source
 
