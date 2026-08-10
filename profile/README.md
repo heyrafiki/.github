@@ -36,7 +36,7 @@ Heyrafiki connects People, Practitioners, Insurers and Organizations across Care
 
 ## Access
 
-The documentation, API contract and SDK source are public. API access is staged. [Request Sandbox access](https://heyrafiki.space/waitlist).
+The documentation, API contract, assurance benchmark and SDK source are public. Organizations with Sandbox access can create a key in the [Developer Platform](https://app.heyrafiki.space/dev/keys). [Request access](https://heyrafiki.space/waitlist).
 
 ## For insurers and institutions
 
@@ -46,11 +46,26 @@ Integration teams can review the contract and control model before requesting ac
 | --- | --- |
 | [Insurance integration guide](https://docs.heyrafiki.space/insurance/integration-guide) | Coverage, eligibility, pre-authorization, Claims and remittance workflow ownership |
 | [Financial controls](https://docs.heyrafiki.space/insurance/financial-controls) | Integer money, Claim line identities, decision derivation and settlement separation |
+| [Claim valuation timeline](https://docs.heyrafiki.space/insurance/claim-valuation-timeline) | Reproducible as-of Claim history across business time, knowledge time and valuation time |
+| [Assurance Graph](https://docs.heyrafiki.space/institutions/assurance-graph) | Every public operation linked to an accountable capability, control owner, authority source and executable evidence |
 | [Acceptance testing](https://docs.heyrafiki.space/insurance/acceptance-testing) | Synthetic pilot sequence, negative tests and production approval evidence |
 | [OpenAPI contract](https://github.com/heyrafiki/openapi) | Versioned schemas, scopes, errors, idempotency and executable contract checks |
 | [Security policy](https://github.com/heyrafiki/.github/blob/main/SECURITY.md) | Private vulnerability reporting and health-data handling rules |
 
 The payer remains authoritative for membership, Benefit design, adjudication policy, premium, reserving and regulatory returns. Heyrafiki preserves the operational evidence connecting payer decisions to delivered Care, Claims and settlement.
+
+## Open insurance assurance benchmark
+
+The [Open Mental Health Insurance Assurance Benchmark](https://github.com/heyrafiki/openapi/blob/main/BENCHMARK.md) maps all 30 public API operations to 10 accountable capabilities and 9 controls. Its deterministic runner validates the contract, financial identities, a bitemporal Claim valuation timeline and graph integrity. Five adversarial mutations test duplicate events, reordered knowledge, future knowledge, unbalanced adjudication and settlement above payer liability.
+
+```bash
+git clone https://github.com/heyrafiki/openapi.git
+cd openapi
+npm ci
+npm test
+```
+
+The fixture is synthetic. It establishes reproducible contract behavior, not regulatory approval, clinical efficacy, reserve adequacy or insurer solvency. [Read the research article](https://heyrafiki.space/resources/articles/what-did-the-claim-system-know) or [inspect the machine-readable Assurance Graph](https://github.com/heyrafiki/openapi/blob/main/assurance/assurance-graph.json).
 
 ## Open source
 
