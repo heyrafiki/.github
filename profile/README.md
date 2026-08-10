@@ -56,7 +56,7 @@ The payer remains authoritative for membership, Benefit design, adjudication pol
 
 ## Open insurance assurance benchmark
 
-The [Open Mental Health Insurance Assurance Benchmark](https://github.com/heyrafiki/openapi/blob/main/BENCHMARK.md) maps all 30 public API operations to 10 accountable capabilities and 9 controls. Its deterministic runner validates the contract, financial identities, a bitemporal Claim valuation timeline and graph integrity. Five adversarial mutations test duplicate events, reordered knowledge, future knowledge, unbalanced adjudication and settlement above payer liability.
+The [Open Mental Health Insurance Assurance Benchmark](https://github.com/heyrafiki/openapi/blob/main/BENCHMARK.md) maps all 31 public API operations to 10 accountable capabilities and 9 controls. Its deterministic runner validates the contract, financial identities, a bitemporal Claim valuation timeline and graph integrity. Five adversarial mutations test duplicate events, reordered knowledge, future knowledge, unbalanced adjudication and settlement above payer liability.
 
 ```bash
 git clone https://github.com/heyrafiki/openapi.git
@@ -65,7 +65,7 @@ npm ci
 npm test
 ```
 
-The fixture is synthetic. It establishes reproducible contract behavior, not regulatory approval, clinical efficacy, reserve adequacy or insurer solvency. [Read the research article](https://heyrafiki.space/resources/articles/what-did-the-claim-system-know) or [inspect the machine-readable Assurance Graph](https://github.com/heyrafiki/openapi/blob/main/assurance/assurance-graph.json).
+The fixture is synthetic. It establishes reproducible contract behavior, not regulatory approval, clinical efficacy, reserve adequacy or insurer solvency. [Call the Claim valuation operation](https://docs.heyrafiki.space/insurance/claim-valuation-timeline), [read the research article](https://heyrafiki.space/resources/articles/what-did-the-claim-system-know) or [inspect the machine-readable Assurance Graph](https://github.com/heyrafiki/openapi/blob/main/assurance/assurance-graph.json).
 
 ## Open source
 
