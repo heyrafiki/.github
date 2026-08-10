@@ -38,6 +38,20 @@ Heyrafiki connects People, Practitioners, Insurers and Organizations across Care
 
 The documentation, API contract and SDK source are public. API access is staged. [Request Sandbox access](https://heyrafiki.space/waitlist).
 
+## For insurers and institutions
+
+Integration teams can review the contract and control model before requesting access:
+
+| Review surface | What it proves |
+| --- | --- |
+| [Insurance integration guide](https://docs.heyrafiki.space/insurance/integration-guide) | Coverage, eligibility, pre-authorization, Claims and remittance workflow ownership |
+| [Financial controls](https://docs.heyrafiki.space/insurance/financial-controls) | Integer money, Claim line identities, decision derivation and settlement separation |
+| [Acceptance testing](https://docs.heyrafiki.space/insurance/acceptance-testing) | Synthetic pilot sequence, negative tests and production approval evidence |
+| [OpenAPI contract](https://github.com/heyrafiki/openapi) | Versioned schemas, scopes, errors, idempotency and executable contract checks |
+| [Security policy](https://github.com/heyrafiki/.github/blob/main/SECURITY.md) | Private vulnerability reporting and health-data handling rules |
+
+The payer remains authoritative for membership, Benefit design, adjudication policy, premium, reserving and regulatory returns. Heyrafiki preserves the operational evidence connecting payer decisions to delivered Care, Claims and settlement.
+
 ## Open source
 
 We publish contracts, SDKs and documentation where independent inspection improves interoperability and trust. Each public artifact has its own licence.
