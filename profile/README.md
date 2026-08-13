@@ -87,6 +87,8 @@ Safety thresholds, anti-fraud controls, private regulator and payer adapters, pr
 
 Issues and pull requests are welcome in public repositories. Start with [`CONTRIBUTING.md`](https://github.com/heyrafiki/.github/blob/main/CONTRIBUTING.md).
 
+Heyrafiki follows a BDFL governance model under Founder Daniel Moenga. Read [`GOVERNANCE.md`](https://github.com/heyrafiki/.github/blob/main/GOVERNANCE.md) for how project decisions and maintainer responsibilities work.
+
 Report security issues through [`SECURITY.md`](https://github.com/heyrafiki/.github/blob/main/SECURITY.md), never a public issue.
 
 <p align="center">
