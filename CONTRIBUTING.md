@@ -37,4 +37,6 @@ A pull request should explain what changed, why it changed, how it was verified,
 
 Maintainers review contributions for correctness, safety, accessibility, interoperability, and fit with the repository's scope. A maintainer may ask for changes or close a proposal that does not fit that scope.
 
+Heyrafiki uses a BDFL governance model. Daniel Moenga, Heyrafiki's Founder and BDFL, holds final stewardship of project direction and resolves decisions where consensus cannot be reached. Read [`GOVERNANCE.md`](GOVERNANCE.md) for the decision and delegation model.
+
 By contributing, you agree that your contribution is licensed under the repository's licence.
