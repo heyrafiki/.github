@@ -28,13 +28,16 @@ Heyrafiki connects People, Practitioners, Insurers and Organizations across Care
 | --- | --- | --- |
 | [`docs`](https://github.com/heyrafiki/docs) | Developer documentation for the API, SDKs, Webhooks and MCP. [Read the Docs](https://docs.heyrafiki.space). | [CC BY 4.0](https://github.com/heyrafiki/docs/blob/main/LICENSE) |
 | [`contract`](https://github.com/heyrafiki/contract) | OpenAPI 3.1 contract and machine-readable Assurance Graph. | [Apache 2.0](https://github.com/heyrafiki/contract/blob/main/LICENSE) |
-| [`proving-ground`](https://github.com/heyrafiki/proving-ground) | Executable contract, financial, bitemporal and adversarial conformance evidence. | [Apache 2.0](https://github.com/heyrafiki/proving-ground/blob/main/LICENSE) |
+| [`proving-ground`](https://github.com/heyrafiki/proving-ground) | Executable conformance evidence, First Light fixtures and reviewed research protocols. | [Apache 2.0](https://github.com/heyrafiki/proving-ground/blob/main/LICENSE) |
 | [`rafiki-js`](https://github.com/heyrafiki/rafiki-js) | JavaScript and TypeScript SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-js/blob/main/LICENSE) |
 | [`rafiki-py`](https://github.com/heyrafiki/rafiki-py) | Python SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-py/blob/main/LICENSE) |
 | [`rafiki-go`](https://github.com/heyrafiki/rafiki-go) | Go SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-go/blob/main/LICENSE) |
 | [`rafiki-net`](https://github.com/heyrafiki/rafiki-net) | .NET SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-net/blob/main/LICENSE) |
 | [`rafiki-rs`](https://github.com/heyrafiki/rafiki-rs) | Rust SDK for the Heyrafiki API. | [Apache 2.0](https://github.com/heyrafiki/rafiki-rs/blob/main/LICENSE) |
 | [`hey`](https://github.com/heyrafiki/hey) | Command line for Sandbox diagnostics and governed API reads. | [Apache 2.0](https://github.com/heyrafiki/hey/blob/main/LICENSE) |
+
+Install the SDKs and CLI from source today. Registry packages will be linked
+here after each signed release is verified from a clean consumer project.
 
 ## Access
 
@@ -52,6 +55,7 @@ Integration teams can review the contract and control model before requesting ac
 | [Assurance Graph](https://docs.heyrafiki.space/institutions/assurance-graph) | Every public operation linked to an accountable capability, control owner, authority source and executable evidence |
 | [Acceptance testing](https://docs.heyrafiki.space/insurance/acceptance-testing) | Synthetic pilot sequence, negative tests and production approval evidence |
 | [OpenAPI contract](https://github.com/heyrafiki/contract) | Versioned schemas, scopes, errors, idempotency and accountable capability ownership |
+| [API overview](https://docs.heyrafiki.space/resources) | All 31 released operations grouped by Care, Benefits, Claims, remittance and Webhook resources |
 | [Proving Ground](https://github.com/heyrafiki/proving-ground) | Reproducible conformance suites and pinned evidence artifacts |
 | [First Light Evidence Pack](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/pilot-evidence-pack.md) | Consent-authorized early-identification routing, tenant isolation, blind dual review, longitudinal knowledge time and adverse-boundary evidence |
 | [Security policy](https://github.com/heyrafiki/.github/blob/main/SECURITY.md) | Private vulnerability reporting and health-data handling rules |
@@ -76,6 +80,19 @@ The open benchmark is the shared technical baseline for governed institutional p
 First Light carries Screening signals into an accountable Practitioner review boundary. Its [public evidence pack](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/pilot-evidence-pack.md) reproduces 48 versioned fixtures across self, caregiver and Practitioner responder paths. The suite verifies Consent before read or action, tenant isolation, minimum-necessary model context, blind dual review, effective and recorded time, complete audit evidence and 24 adverse boundaries.
 
 Every artifact is pinned in a [reviewed SHA-256 manifest](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/manifest.json). The [Evidence Boundary](https://github.com/heyrafiki/proving-ground/blob/main/benchmarks/first-light/v2/evidence-boundary.md) keeps fixed-cohort conformance measurement precise while instrument- and population-specific clinical evaluation carries its own reviewed protocol.
+
+## Research under review
+
+The current research candidate evaluates a two-cutoff, Consent-conditional
+assurance-path query against five progressively stronger baselines. The public
+package includes the [protocol](https://github.com/heyrafiki/proving-ground/blob/main/research/consent-aware-bitemporal-assurance-graph/protocol.md),
+[Stage 1 manuscript](https://github.com/heyrafiki/proving-ground/blob/main/research/consent-aware-bitemporal-assurance-graph/manuscript.md),
+[prior-art search](https://github.com/heyrafiki/proving-ground/blob/main/research/consent-aware-bitemporal-assurance-graph/prior-art-search.md)
+and [independent reviewer checklist](https://github.com/heyrafiki/proving-ground/blob/main/research/consent-aware-bitemporal-assurance-graph/reviewer-checklist.md).
+
+The protocol is in Stage 1 independent review. Results follow protocol freeze,
+comparative evaluation and independent reproduction. Scientific priority and
+patentability receive separate research and legal review.
 
 ## Open source
 
