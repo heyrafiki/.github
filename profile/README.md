@@ -8,13 +8,12 @@
 
 **Built in Kenya, for the World.**
 
-Mental Healthcare should become better informed over time. Heyrafiki connects
-People, Practitioners, Organizations and Insurers from early Screening and
-Matching through Care, Benefits and Claims.
+Mental Healthcare should get better informed over time. Heyrafiki brings early
+Screening, finding care, ongoing Care, Benefits and Claims into one connected
+system, so a Person does not have to start from zero whenever care changes hands.
 
-A Person should not have to start from zero at every new point of Care. Consent
-decides what travels. Practitioners decide what it means. Payers adjudicate
-Claims.
+People decide what they share. Practitioners decide what it means. Organizations
+and Insurers act only within the permissions and responsibilities assigned to them.
 
 [Website](https://heyrafiki.space) ·
 [Docs](https://docs.heyrafiki.space) ·
@@ -26,58 +25,58 @@ Claims.
 
 | Foundation | What it makes possible |
 | --- | --- |
-| **Continuity** | Useful context can carry from one point of Care to the next. |
-| **Intelligence** | Repeated observations can help a Practitioner see what changed and what may deserve attention. |
-| **Infrastructure** | Care, Benefits, Claims and Payments can work together without becoming the same Record or authority. |
+| **Continuity** | The context a Person agrees to share can move from one point of Care to the next. |
+| **Intelligence** | Repeated check-ins help a Practitioner see what changed and decide what needs attention. |
+| **Infrastructure** | Care, Benefits, Claims and Payments can work together while each keeps its own responsibilities. |
 
 ## Public work
 
-| Repository | Authority |
+| Repository | What it is |
 | --- | --- |
-| [contract](https://github.com/heyrafiki/contract) | Versioned REST contract and Assurance Graph. |
-| [proving-ground](https://github.com/heyrafiki/proving-ground) | Executable conformance evidence, First Light fixtures and research protocols. |
-| [docs](https://github.com/heyrafiki/docs) | Developer documentation for released contracts, SDKs, Webhooks and governed MCP access. |
+| [contract](https://github.com/heyrafiki/contract) | The versioned public API contract. |
+| [proving-ground](https://github.com/heyrafiki/proving-ground) | Open tests that show what the system supports and where it must stop. |
+| [docs](https://github.com/heyrafiki/docs) | Guides for the API, SDKs, Webhooks and MCP access. |
 | [rafiki-js](https://github.com/heyrafiki/rafiki-js) | JavaScript and TypeScript client for the Heyrafiki API. |
 | [rafiki-py](https://github.com/heyrafiki/rafiki-py) | Python client for the Heyrafiki API. |
 | [rafiki-go](https://github.com/heyrafiki/rafiki-go) | Go client for the Heyrafiki API. |
 | [rafiki-net](https://github.com/heyrafiki/rafiki-net) | .NET client for the Heyrafiki API. |
 | [rafiki-rs](https://github.com/heyrafiki/rafiki-rs) | Rust client for the Heyrafiki API. |
-| [hey](https://github.com/heyrafiki/hey) | CLI for Sandbox diagnostics and governed API reads. |
+| [hey](https://github.com/heyrafiki/hey) | Command-line tools for safe Sandbox testing. |
 
-## Important guarantees should be executable
+## Trust should be testable
 
-[Proving Ground](https://github.com/heyrafiki/proving-ground) turns
-authorization, financial identity, time-aware Claim valuation, First Light
-evidence and adverse boundaries into tests others can run. It is how a
-consequential system earns inspection.
+[Proving Ground](https://github.com/heyrafiki/proving-ground) publishes test
+suites that anyone can run against our public contracts. They cover consent and
+access, payment and Claim records, early-Screening provenance, and the cases in
+which the system must decline to act.
 
 [First Light](https://github.com/heyrafiki/proving-ground/tree/main/benchmarks/first-light)
-keeps the questionnaire, version, language, who answered, time, Consent,
-scoring method and source with a Screening result. The public evidence pack
-tests the boundary before the system asks anyone to trust it.
+keeps the questionnaire, version, language, timing, Consent and source with an
+early-Screening result. That gives a Practitioner the context to understand a
+result before relying on it.
 
 [Iris Affective Dynamics](https://github.com/heyrafiki/proving-ground/tree/main/research/affective-dynamics)
-asks whether repeated mental health observations can help Practitioners see
-deterioration, persistence and recovery earlier. The current work defines
-comparators, failure criteria and evidence boundaries before clinical use.
+investigates whether repeated observations can help Practitioners notice
+deterioration, persistence and recovery sooner. Its comparators, failure
+criteria and evidence boundaries are published before clinical use.
 
-## Authority stays explicit
+## People stay in control
 
-- People choose.
-- Practitioners interpret and decide.
-- Approval changes the Record.
-- Consent controls access.
-- Payers adjudicate Claims.
-- Models reason. Typed capabilities act. Deterministic systems authorize and record.
+- People decide what to share.
+- Practitioners make clinical decisions.
+- Consent determines access.
+- Insurers make Claim decisions under their own rules.
+- AI can help people make sense of information. It does not make clinical,
+  Benefit or Claim decisions.
 
 ## Access and openness
 
-The REST definition, SDKs, CLI, Docs and conformance evidence are public. MCP
-is available for approved Sandbox projects through explicit scopes, grants and
-audit evidence.
+Our public work includes the API definition, SDKs, command-line tools,
+documentation and test suites. For agent integrations, MCP access starts in
+approved Sandbox projects with clear scopes and an audit trail.
 
-Safety thresholds, anti-fraud controls, private regulator and payer adapters,
-production credentials and production data remain private. Read the
+Open source has a clear boundary. Production data, credentials, safety systems,
+and private regulatory or insurer integrations remain private. Read the
 [open source boundary](https://heyrafiki.space/open-source).
 
 ## Contributing and security
